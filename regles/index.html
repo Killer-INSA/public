@@ -1,323 +1,591 @@
 <!DOCTYPE html>
 <html lang="fr">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Règle killer Bourges</title>
     <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- Google Fonts (optionnel) -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Custom CSS (si nécessaire) -->
     <style>
-        /* Fond de la page */
-        body {
-            font-family: 'Inter', sans-serif;
-        }
+      /* Fond de la page */
+      body {
+        font-family: "Inter", sans-serif;
+      }
     </style>
-</head>
+  </head>
 
-<body class="bg-neutral-900 text-neutral-100">
-    <div class="max-w-3xl mx-auto p-6 bg-neutral-800 shadow-lg mt-10 rounded-lg">
-        <h1 class="text-4xl font-extrabold uppercase text-gray-50 mb-6" id="règles-du-killer-bourges-2024">Règles du
-            Killer Bourges
-            2024</h1>
+  <body class="bg-neutral-900 text-neutral-100">
+    <div
+      class="max-w-3xl mx-auto p-6 bg-neutral-800 shadow-lg mt-10 rounded-lg"
+    >
+      <h1
+        class="text-4xl font-extrabold uppercase text-gray-50 mb-6"
+        id="règles-du-killer-bourges-2024"
+      >
+        Règles du Killer Bourges 2025
+      </h1>
 
-        <h2 class="text-3xl font-bold text-gray-200 border-b-2 border-gray-700 mt-10 pb-2 mb-5" id="règles-des-kill">
-            Principe du Jeu</h2>
-            <p class="mb-2">L'ensemble des joueurs sont répartis selon une boucle aléatoire. Chaque joueur doit « éliminer » (aussi dit « tuer ») le joueur devant lui (appelé « cible »).</p>
-            <img src="/public/regles/assets/loop.png" class="mb-2 mt-2">
-            <p class="mb-2">Pour connaitre le joueur à éliminer chaque joueur recoit son « contrat » mentionnant le nom de la cible à éliminer, ainsi que les objets (appeler « arme »)
-                avec lesquels il peut éliminer sa cible. Pour éliminer sa cible il sufit de la toucher avec une de ses armes.</p>
+      <h2
+        class="text-3xl font-bold text-gray-200 border-b-2 border-gray-700 mt-10 pb-2 mb-5"
+        id="règles-des-kill"
+      >
+        Principe du Jeu
+      </h2>
+      <p class="mb-2">
+        L'ensemble des joueurs sont répartis selon une boucle aléatoire. Chaque
+        joueur doit « éliminer » (aussi dit « tuer ») le joueur devant lui
+        (appelé « cible »).
+      </p>
+      <img src="/public/regles/assets/loop.png" class="mb-2 mt-2" />
+      <p class="mb-2">
+        Pour connaitre le joueur à éliminer chaque joueur recoit son « contrat »
+        mentionnant le nom de la cible à éliminer, ainsi que les objets (appeler
+        « arme ») avec lesquels il peut éliminer sa cible. Pour éliminer sa
+        cible il sufit de la toucher avec une de ses armes.
+      </p>
 
-            <p class="mb-2">Lorsqu'un joueur élimine le joueur devant lui, il récupère le contrat, donc la cible et les armes, du joueur qu'il vient d'éliminer.</p>
-            <img src="/public/regles/assets/loopcut.png", class="mb-2 mt-2">
-            <p class="mb-2">Les dernier joueurs en vie seront les gagants. 5 personne maximum.</p>
+      <p class="mb-2">
+        Lorsqu'un joueur élimine le joueur devant lui, il récupère le contrat,
+        donc la cible et les armes, du joueur qu'il vient d'éliminer.
+      </p>
+      <img src="/public/regles/assets/loopcut.png" , class="mb-2 mt-2" />
+      <p class="mb-2">
+        Les dernier joueurs en vie seront les gagants. 5 personne maximum.
+      </p>
 
-        <h2 class="text-3xl font-bold text-gray-200 border-b-2 border-gray-700 mt-10 pb-2 mb-5" id="règles-des-kill">
-            Règles des kill</h2>
+      <h2
+        class="text-3xl font-bold text-gray-200 border-b-2 border-gray-700 mt-10 pb-2 mb-5"
+        id="règles-des-kill"
+      >
+        Règles des kill
+      </h2>
 
-        <h3 class="text-2xl font-semibold text-gray-300 mt-6 mb-4" id="faire-un-kill">Faire un kill</h3>
-        <p class="mb-2">Pour effectuer un kill, vous devez toucher votre cible avec l’un des objets (appelé "armes") mentionnés dans
-            votre contrat en
-            prononçant « <strong>killer</strong> ».</p>
-            <p class="mb-2"><strong>Attention</strong> : Le killer et la cible doivent toucher l'arme.</p>
-            <p class="mb-2">Une fois la cible touchée, il vous faudra compter <strong>5 secondes</strong>, toujours à voix haute.
-            Si votre cible n’est pas sauvée au cours de ce délai, le kill est validé et vous pouvez procéder au scan de
-            la carte de la victime.</p>
-            <p class="mb-2"><strong>Note</strong> : La victime à le droit de bouger durant le compte des 5 secondes</p>
-        <p class="mb-2">Pour valider un kill dans l'application vous devez scanner la carte de votre cible dans
-            l’onglet <code>kill</code>, selectionner l’arme utilisée et
-            valider le kill. Vous obtiendrez alors le contrat de votre cible dans
-            l’application ainsi que les points associés au kill.</p>
+      <h3
+        class="text-2xl font-semibold text-gray-300 mt-6 mb-4"
+        id="faire-un-kill"
+      >
+        Faire un kill
+      </h3>
+      <p class="mb-2">
+        Pour effectuer un kill, vous devez toucher votre cible avec l’un des
+        objets (appelé "armes") mentionnés dans votre contrat en prononçant «
+        <strong>killer</strong> ».
+      </p>
+      <p class="mb-2">
+        <strong>Attention</strong> : Le killer et la cible doivent toucher
+        l'arme.
+      </p>
+      <p class="mb-2">
+        Une fois la cible touchée, il vous faudra compter
+        <strong>5 secondes</strong>, toujours à voix haute. Si votre cible n’est
+        pas sauvée au cours de ce délai, le kill est validé et vous pouvez
+        procéder au scan de la carte de la victime.
+      </p>
+      <p class="mb-2">
+        <strong>Note</strong> : La victime à le droit de bouger durant le compte
+        des 5 secondes
+      </p>
+      <p class="mb-2">
+        Pour valider un kill dans l'application vous devez scanner la carte de
+        votre cible dans l’onglet <code>kill</code>, selectionner l’arme
+        utilisée et valider le kill. Vous obtiendrez alors le contrat de votre
+        cible dans l’application ainsi que les points associés au kill.
+      </p>
 
-        <h3 class="text-2xl font-semibold text-gray-300 mt-6 mb-4" id="sauver-un-joueur">Sauver un joueur</h3>
-        <p class="mb-2">Il est possible de sauver (ou réanimer) un joueur pendant le délai de
-            <strong>5 secondes</strong> qui suit son kill.
-        <p class="mb-2">Il suffit de toucher la victime avec votre carte killer en disant
-            “<strong>sauvé</strong>”. Il est interdit de sauver avec la carte d’un autre joueur
-            (attention à ne pas perdre la vôtre), et il est évidemment nécessaire d’être encore
-            en vie pour réanimer quelqu’un.</p>
-        <h4 class="text-lg font-semibold mt-4 mb-2" id="visibilité-de-la-carte"><span
-                class="text-gray-500 mr-2">•</span>Visibilité de la carte</h4>
-        <p class="mb-2">Vous pouvez toucher la victime avec votre carte indirectement (à
-            travers une coque, un porte-carte) si celle-ci est
-            <strong>visible</strong> sans la sortir.
-        </p>
+      <h3
+        class="text-2xl font-semibold text-gray-300 mt-6 mb-4"
+        id="sauver-un-joueur"
+      >
+        Sauver un joueur
+      </h3>
+      <p class="mb-2">
+        Il est possible de sauver (ou réanimer) un joueur pendant le délai de
+        <strong>5 secondes</strong> qui suit son kill.
+      </p>
 
-        <h3 class="text-2xl font-semibold text-gray-300 mt-6 mb-4" id="perte-vol-de-carte">Perte/Vol de carte</h3>
-        <p class="mb-2">Il est formellement interdit de dérober la carte de quelqu’un. Il vous sera impossible de
-            réanimer des joueurs
-            si vous perdez votre carte. Une carte trouvée devra être rendue à l’administrateur ou directement au
-            propriétaire.
-        </p>
+      <p class="mb-2">
+        Il suffit de toucher la victime avec votre carte killer en disant
+        “<strong>sauvé</strong>”. Il est interdit de sauver avec la carte d’un
+        autre joueur (attention à ne pas perdre la vôtre), et il est évidemment
+        nécessaire d’être encore en vie pour réanimer quelqu’un.
+      </p>
+      <h4 class="text-lg font-semibold mt-4 mb-2" id="visibilité-de-la-carte">
+        <span class="text-gray-500 mr-2">•</span>Visibilité de la carte
+      </h4>
+      <p class="mb-2">
+        Vous pouvez toucher la victime avec votre carte indirectement (à travers
+        une coque, un porte-carte) si celle-ci est <strong>visible</strong> sans
+        la sortir.
+      </p>
 
+      <h3
+        class="text-2xl font-semibold text-gray-300 mt-6 mb-4"
+        id="perte-vol-de-carte"
+      >
+        Perte/Vol de carte
+      </h3>
+      <p class="mb-2">
+        Il est formellement interdit de dérober la carte de quelqu’un. Il vous
+        sera impossible de réanimer des joueurs si vous perdez votre carte. Une
+        carte trouvée devra être rendue à l’administrateur ou directement au
+        propriétaire.
+      </p>
 
-        <h3 class="text-2xl font-semibold text-gray-300 mt-6 mb-4" id="usage-de-la-force">Usage de la force</h3>
-        <p class="mb-2">L’usage de la force est fortement proscrit, quelle que soit la méthode utilisée.
-            Cela comprend certes la violence directe lors du kill (on a dit toucher, pas frapper ni lancer)
-            mais aussi tout usage indirect (obstruction du passage, blocage des portes…).
-            Tout kill contraire à cette règle pourra être contesté (cf <a href=#contestation-et-tribunal>litige</a>),
-            voire faire l’objet de sanctions.
-        </p>
+      <h3
+        class="text-2xl font-semibold text-gray-300 mt-6 mb-4"
+        id="usage-de-la-force"
+      >
+        Usage de la force
+      </h3>
+      <p class="mb-2">
+        L’usage de la force est fortement proscrit, quelle que soit la méthode
+        utilisée. Cela comprend certes la violence directe lors du kill (on a
+        dit toucher, pas frapper ni lancer) mais aussi tout usage indirect
+        (obstruction du passage, blocage des portes…). Tout kill contraire à
+        cette règle pourra être contesté (cf
+        <a href="#contestation-et-tribunal">litige</a>), voire faire l’objet de
+        sanctions.
+      </p>
 
-        <h3 class="text-2xl font-semibold text-gray-300 mt-6 mb-4" id="kills-spéciaux">Kills spéciaux</h3>
-        <p class="mb-2">Il est possible de gagner des points supplémentaires sur vos kill en
-            remplissant certaines conditions : </p>
-        <h4 class="text-lg font-semibold mt-4 mb-2" id="kill-vidéo"><span class="text-gray-500 mr-2">•</span>Kill Vidéo
-        </h4>
-        <p class="mb-2">Si vous filmez le kill et l’envoyez à l’administrateur vous pourrez
-            gagner entre 1 et 3 points supplémentaires en fonction de la difficulté
-            du kill et sa réalisation.</p>
-        <h4 class="text-lg font-semibold mt-4 mb-2" id="kill-avec-orion"><span class="text-gray-500 mr-2">•</span>Kill
-            avec Orion</h4>
-        <p class="mb-2">Si vous le souhaitez, vous pouvez contacter l’administrateur (Orion)
-            afin que, s’il est disponible, il vienne en personne voir votre kill
-            (priorité mise sur les personnes extérieures à l’entourage de
-            l’administrateur), vous pourrez gagner entre 2 et 4 point
-            supplémentaires en fonction de la difficulté du kill et sa réalisation.
-            Non cumulable avec le kill vidéo.</p>
-        <h4 class="text-lg font-semibold mt-4 mb-2" id="multi-kill"><span class="text-gray-500 mr-2">•</span>Multi-Kill
-        </h4>
-        <p class="mb-2">Les multi-kills sont des kills réalisés simultanément par un groupe de killers sur groupe de
-            victimes.</p>
-        <p class="mb-2">Ces kills rapportent <strong>1 point en plus par coéquipiers</strong>
-            et doivent être validés par l’administrateur (une petite vidéo en plus
-            serait bienvenue (en plus ça vous rapporte encore des points en
-            plus))</p>
-        <h4 class="text-lg font-semibold mt-4 mb-2" id="first-blood"><span
-                class="text-gray-500 mr-2">•</span>First-blood</h4>
-        <p class="mb-2">Le joueur réalisant le <strong>premier kill</strong> gagne +10
-            points.</p>
-        <h3 class="text-2xl font-semibold text-gray-300 mt-6 mb-4" id="armes">Armes</h3>
-        <p class="mb-2">Chaque joueur possède une arme facile à 1 point et une arme
-            difficile à 3 points.</p>
-        <h4 class="text-lg font-semibold mt-4 mb-2" id="règles-particulières-sur-certaines-armes"><span
-                class="text-gray-500 mr-2">•</span>Règles particulières
-            sur certaines armes</h4>
-        <ul>
-            <li>Arme de type <strong><em>Lettre</em></strong> : Elles doivent être
-                écrites à la main, faire un moins 5 lignes et une fois votre cible tuée
-                <strong>leur lecture à la cible est obligatoire pour valider le
-                    kill</strong>.
-            </li>
-        </ul>
+      <h3
+        class="text-2xl font-semibold text-gray-300 mt-6 mb-4"
+        id="kills-spéciaux"
+      >
+        Kills spéciaux
+      </h3>
+      <p class="mb-2">
+        Il est possible de gagner des points supplémentaires sur vos kill en
+        remplissant certaines conditions :
+      </p>
+      <h4 class="text-lg font-semibold mt-4 mb-2" id="kill-vidéo">
+        <span class="text-gray-500 mr-2">•</span>Kill Vidéo
+      </h4>
+      <p class="mb-2">
+        Si vous filmez le kill et l’envoyez à l’administrateur vous pourrez
+        gagner entre 1 et 3 points supplémentaires en fonction de la difficulté
+        du kill et sa réalisation.
+      </p>
+      <h4 class="text-lg font-semibold mt-4 mb-2" id="kill-avec-orion">
+        <span class="text-gray-500 mr-2">•</span>Kill avec Orion
+      </h4>
+      <p class="mb-2">
+        Si vous le souhaitez, vous pouvez contacter l’administrateur (Orion)
+        afin que, s’il est disponible, il vienne en personne voir votre kill
+        (priorité mise sur les personnes extérieures à l’entourage de
+        l’administrateur), vous pourrez gagner entre 2 et 4 point
+        supplémentaires en fonction de la difficulté du kill et sa réalisation.
+        Non cumulable avec le kill vidéo.
+      </p>
+      <h4 class="text-lg font-semibold mt-4 mb-2" id="multi-kill">
+        <span class="text-gray-500 mr-2">•</span>Multi-Kill
+      </h4>
+      <p class="mb-2">
+        Les multi-kills sont des kills réalisés simultanément par un groupe de
+        killers sur groupe de victimes.
+      </p>
+      <p class="mb-2">
+        Ces kills rapportent <strong>1 point en plus par coéquipiers</strong> et
+        doivent être validés par l’administrateur (une petite vidéo en plus
+        serait bienvenue (en plus ça vous rapporte encore des points en plus))
+      </p>
+      <h4 class="text-lg font-semibold mt-4 mb-2" id="first-blood">
+        <span class="text-gray-500 mr-2">•</span>First-blood
+      </h4>
+      <p class="mb-2">
+        Le joueur réalisant le <strong>premier kill</strong> gagne +10 points.
+      </p>
+      <h3 class="text-2xl font-semibold text-gray-300 mt-6 mb-4" id="armes">
+        Armes
+      </h3>
+      <p class="mb-2">
+        Chaque joueur possède une arme facile à 1 point et une arme difficile à
+        3 points.
+      </p>
+      <h4
+        class="text-lg font-semibold mt-4 mb-2"
+        id="règles-particulières-sur-certaines-armes"
+      >
+        <span class="text-gray-500 mr-2">•</span>Règles particulières sur
+        certaines armes
+      </h4>
+      <ul>
+        <li>
+          Arme de type <strong><em>Lettre</em></strong> : Elles doivent être
+          écrites à la main, faire un moins 5 lignes et une fois votre cible
+          tuée
+          <strong
+            >leur lecture à la cible est obligatoire pour valider le
+            kill</strong
+          >.
+        </li>
+      </ul>
 
-        <h3 class="text-2xl font-semibold text-gray-300 mt-6 mb-4" id="lieux-des-kills">Lieux des kills</h3>
-        <h4 class="text-lg font-semibold mt-4 mb-2" id="kill-dans-linsa"><span class="text-gray-500 mr-2">•</span>Kills
-            dans l’INSA</h4>
-        <p class="mb-2">Tous les kills sont autorisés au sein de l’INSA tant qu’ils ne perturbent
-            pas le déroulement des cours (voir <a href="#kill-pendant-les-cours">Kill
-                pendant les cours</a>)</p>
-        <h4 class="text-lg font-semibold mt-4 mb-2" id="kill-pendant-les-cours"><span
-                class="text-gray-500 mr-2">•</span>Kills pendant les cours</h4>
-        <p class="mb-2">Les kills dans les salles de cours sont interdits à moins que l’enseignant
-            n’ait donné son accord au préalable (c’est-à-dire <strong>avant</strong> le début du
-            cours).</p>
-        <p class="mb-2">Si le cours se fait en dehors d’une salle de cours (Ex: Learning Center, cours de sport…),
-            cette règle ne s’applique plus et les kills sont autorisés.</p>
-        <h4 class="text-lg font-semibold mt-4 mb-2" id="kill-dans-les-lieux-publics"><span
-                class="text-gray-500 mr-2">•</span>Kills dans les lieux publics</h4>
-        <p class="mb-2">Tous les kills sont autorisés dans les lieux publics tant que
-            celui-ci ne dérange pas un événement public ou vous mette en danger
-            légalement (Ex zoner devant MBDA).</p>
-        <h4 class="text-lg font-semibold mt-4 mb-2" id="kill-dans-les-parties-communes"><span
-                class="text-gray-500 mr-2">•</span>Kills dans les parties
-            communes</h4>
-        <p class="mb-2">Les kills dans les parties communes d’immeuble sont autorisés si le
-            joueur est entré sans effraction dans l’immeuble comme une porte restée
-            ouverte ou une porte tenue par un voisin.</p>
-        <h4 class="text-lg font-semibold mt-4 mb-2" id="kill-dans-les-appartements"><span
-                class="text-gray-500 mr-2">•</span>Kills dans les appartements</h4>
-        <p class="mb-2">Aucun kill n’est toléré directement chez la cible si celle-ci ne vous a pas explicitement
-            invitée,
-            à l’exception des kills entre colocataires qui sont autorisés
-            (après c’est pas forcément la meilleure stratégie pour gagner…).</p>
-        <h3 class="text-2xl font-semibold text-gray-300 mt-6 mb-4" id="règle-particulière">Règles particulières</h3>
-        <h4 class="text-lg font-semibold mt-4 mb-2" id="faux-kill-et-faux-multi-kill"><span
-                class="text-gray-500 mr-2">•</span>Faux-Kill et faux Multi-Kill</h4>
-        <p class="mb-2">Les faux kills sont autorisés car ceux-ci seront automatiquement
-            refusés par l’application. Dans le cas de faux multi-kills (un killer
-            est vrai et le second non), en cas de doute vous pouvez demander à vos
-            killers de vous montrer les contrats avant de scanner les cartes.</p>
-        <h4 class="text-lg font-semibold mt-4 mb-2" id="fausse-réanimation"><span
-                class="text-gray-500 mr-2">•</span>Fausse réanimation</h4>
-        <p class="mb-2">Les fausses réanimations (sauver) sont interdites.</p>
+      <h3
+        class="text-2xl font-semibold text-gray-300 mt-6 mb-4"
+        id="lieux-des-kills"
+      >
+        Lieux des kills
+      </h3>
+      <h4 class="text-lg font-semibold mt-4 mb-2" id="kill-dans-linsa">
+        <span class="text-gray-500 mr-2">•</span>Kills dans l’INSA
+      </h4>
+      <p class="mb-2">
+        Tous les kills sont autorisés au sein de l’INSA tant qu’ils ne
+        perturbent pas le déroulement des cours (voir
+        <a href="#kill-pendant-les-cours">Kill pendant les cours</a>)
+      </p>
+      <h4 class="text-lg font-semibold mt-4 mb-2" id="kill-pendant-les-cours">
+        <span class="text-gray-500 mr-2">•</span>Kills pendant les cours
+      </h4>
+      <p class="mb-2">
+        Les kills dans les salles de cours sont interdits à moins que
+        l’enseignant n’ait donné son accord au préalable (c’est-à-dire
+        <strong>avant</strong> le début du cours).
+      </p>
+      <p class="mb-2">
+        Si le cours se fait en dehors d’une salle de cours (Ex: Learning Center,
+        cours de sport…), cette règle ne s’applique plus et les kills sont
+        autorisés.
+      </p>
+      <h4
+        class="text-lg font-semibold mt-4 mb-2"
+        id="kill-dans-les-lieux-publics"
+      >
+        <span class="text-gray-500 mr-2">•</span>Kills dans les lieux publics
+      </h4>
+      <p class="mb-2">
+        Tous les kills sont autorisés dans les lieux publics tant que celui-ci
+        ne dérange pas un événement public ou vous mette en danger légalement
+        (Ex zoner devant MBDA).
+      </p>
+      <h4
+        class="text-lg font-semibold mt-4 mb-2"
+        id="kill-dans-les-parties-communes"
+      >
+        <span class="text-gray-500 mr-2">•</span>Kills dans les parties communes
+      </h4>
+      <p class="mb-2">
+        Les kills dans les parties communes d’immeuble sont autorisés si le
+        joueur est entré sans effraction dans l’immeuble comme une porte restée
+        ouverte ou une porte tenue par un voisin.
+      </p>
+      <h4
+        class="text-lg font-semibold mt-4 mb-2"
+        id="kill-dans-les-appartements"
+      >
+        <span class="text-gray-500 mr-2">•</span>Kills dans les appartements
+      </h4>
+      <p class="mb-2">
+        Aucun kill n’est toléré directement chez la cible si celle-ci ne vous a
+        pas explicitement invitée, à l’exception des kills entre colocataires
+        qui sont autorisés (après c’est pas forcément la meilleure stratégie
+        pour gagner…).
+      </p>
+      <h3
+        class="text-2xl font-semibold text-gray-300 mt-6 mb-4"
+        id="règle-particulière"
+      >
+        Règles particulières
+      </h3>
+      <h4
+        class="text-lg font-semibold mt-4 mb-2"
+        id="faux-kill-et-faux-multi-kill"
+      >
+        <span class="text-gray-500 mr-2">•</span>Faux-Kill et faux Multi-Kill
+      </h4>
+      <p class="mb-2">
+        Les faux kills sont autorisés car ceux-ci seront automatiquement refusés
+        par l’application. Dans le cas de faux multi-kills (un killer est vrai
+        et le second non), en cas de doute vous pouvez demander à vos killers de
+        vous montrer les contrats avant de scanner les cartes.
+      </p>
+      <h4 class="text-lg font-semibold mt-4 mb-2" id="fausse-réanimation">
+        <span class="text-gray-500 mr-2">•</span>Fausse réanimation
+      </h4>
+      <p class="mb-2">Les fausses réanimations (sauver) sont interdites.</p>
 
-        <h2 class="text-3xl font-bold text-gray-200 border-b-2 border-gray-700 mt-10 pb-2 mb-5" id="bonus">Bonus</h2>
-        <p class="mb-2">Les bonus sont des éléments achetables par chaque joueur <strong>en
-                vie</strong> avec les points collectés par ses kills.
-            Chaque bonus sera notifié dans le fil de notification au moment de l’activation
-            (sauf brouilleur) sans que l’identité de l’acheteur ne soit dévoilée.
-        </p>
-        <h3 class="text-2xl font-semibold text-gray-300 mt-6 mb-4" id="brouilleur">Brouilleur</h3>
-        <p class="mb-2">Le brouilleur permet à un joueur de désactiver les notifications et
-            messages (kill et bonus) pour tous les joueurs pendant 2 heures. Le
-            brouilleur est cumulable, si un autre brouilleur est activé pendant un
-            brouilleur, le timer du brouilleur est remis à 0 et toutes les
-            notifications (y compris celle signalant l’achat du brouilleur)
-            seront libérées à la fin du dernier brouilleur.</p>
-        <p class="mb-2">Ce bonus prend effet immédiatement après l’achat, la limite étant qu’il
-            ne peut pas être activé entre le moment ou un kill est fait et le scan
-            de la carte par le joueur ayant effectué le kill (aucun problème si des
-            coéquipiers avec lui l’active à ce moment).</p>
-        <h3 class="text-2xl font-semibold text-gray-300 mt-6 mb-4" id="révélation">Révélation</h3>
-        <p class="mb-2">La révélation permet de connaitre votre killer actuel.
-            <em>Attention</em> : À la fermeture de la fenêtre montrant votre killer
-            dans l’application il ne sera plus possible de le revoir à moins de
-            repayer le bonus.
-        </p>
-        <p class="mb-2">Ce bonus est actif immédiatement après l’achat.</p>
-        <h3 class="text-2xl font-semibold text-gray-300 mt-6 mb-4" id="immunité">Immunité</h3>
-        <p class="mb-2">L’immunité vous permet d’être protégé contre les kills
-            pendant 24 heures. Vous pourrez continuer à jouer normalement mais ne
-            pourrez pas être tué à moins que votre killer n'achète un super
-            Coupe-Gorge.</p>
-        <p class="mb-2">Ce bonus est activé le lendemain de l’achat à 00:10 et fait effet
-            pendant 24h.</p>
-        <h3 class="text-2xl font-semibold text-gray-300 mt-6 mb-4" id="coupe-gorge">Coupe-Gorge</h3>
-        <p class="mb-2">Le coupe-gorge vous permet de tuer votre cible sans que celle-ci
-            ne puisse être sauvée par d’autres joueurs, sauf si votre victime possède
-            une immunité active en même temps. <strong>Attention</strong>: Ce bonus
-            ne permet pas de passer outre les trêves applicables à votre cible.</p>
-        <p class="mb-2">Ce bonus est activé le lendemain de l’achat à 00:10 et fait effet
-            pendant 24h.</p>
-        <h3 class="text-2xl font-semibold text-gray-300 mt-6 mb-4" id="super-coupe-gorge">Super Coupe-gorge</h3>
-        <p class="mb-2">Le super coupe-gorge vous permet de tuer votre cible sans que
-            celle-ci puisse être sauvée par d’autres joueurs ou l’immunité. La seule
-            chose qui peut sauver votre victime est son intelligence et sa capacité
-            à courir vite. <strong>Attention</strong>: Ce bonus ne permet pas de
-            passer outre les trêves applicables à votre cible.</p>
-        <p class="mb-2">Ce bonus est activé le lendemain de l’achat à 00:10 et fait effet
-            pendant 24h.</p>
+      <h2
+        class="text-3xl font-bold text-gray-200 border-b-2 border-gray-700 mt-10 pb-2 mb-5"
+        id="bonus"
+      >
+        Bonus
+      </h2>
+      <p class="mb-2">
+        Les bonus sont des éléments achetables par chaque joueur
+        <strong>en vie</strong> avec les points collectés par ses kills. Chaque
+        bonus sera notifié dans le fil de notification au moment de l’activation
+        (sauf brouilleur) sans que l’identité de l’acheteur ne soit dévoilée.
+      </p>
+      <h3
+        class="text-2xl font-semibold text-gray-300 mt-6 mb-4"
+        id="brouilleur"
+      >
+        Brouilleur
+      </h3>
+      <p class="mb-2">
+        Le brouilleur permet à un joueur de désactiver les notifications et
+        messages (kill et bonus) pour tous les joueurs pendant 2 heures. Le
+        brouilleur est cumulable, si un autre brouilleur est activé pendant un
+        brouilleur, le timer du brouilleur est remis à 0 et toutes les
+        notifications (y compris celle signalant l’achat du brouilleur) seront
+        libérées à la fin du dernier brouilleur.
+      </p>
+      <p class="mb-2">
+        Ce bonus prend effet immédiatement après l’achat, la limite étant qu’il
+        ne peut pas être activé entre le moment ou un kill est fait et le scan
+        de la carte par le joueur ayant effectué le kill (aucun problème si des
+        coéquipiers avec lui l’active à ce moment).
+      </p>
+      <h3
+        class="text-2xl font-semibold text-gray-300 mt-6 mb-4"
+        id="révélation"
+      >
+        Révélation
+      </h3>
+      <p class="mb-2">
+        La révélation permet de connaitre votre killer actuel.
+        <em>Attention</em> : À la fermeture de la fenêtre montrant votre killer
+        dans l’application il ne sera plus possible de le revoir à moins de
+        repayer le bonus.
+      </p>
+      <p class="mb-2">Ce bonus est actif immédiatement après l’achat.</p>
+      <h3 class="text-2xl font-semibold text-gray-300 mt-6 mb-4" id="immunité">
+        Immunité
+      </h3>
+      <p class="mb-2">
+        L’immunité vous permet d’être protégé contre les kills pendant 24
+        heures. Vous pourrez continuer à jouer normalement mais ne pourrez pas
+        être tué à moins que votre killer n'achète un super Coupe-Gorge.
+      </p>
+      <p class="mb-2">
+        Ce bonus est activé le lendemain de l’achat à 00:10 et fait effet
+        pendant 24h.
+      </p>
+      <h3
+        class="text-2xl font-semibold text-gray-300 mt-6 mb-4"
+        id="coupe-gorge"
+      >
+        Coupe-Gorge
+      </h3>
+      <p class="mb-2">
+        Le coupe-gorge vous permet de tuer votre cible sans que celle-ci ne
+        puisse être sauvée par d’autres joueurs, sauf si votre victime possède
+        une immunité active en même temps. <strong>Attention</strong>: Ce bonus
+        ne permet pas de passer outre les trêves applicables à votre cible.
+      </p>
+      <p class="mb-2">
+        Ce bonus est activé le lendemain de l’achat à 00:10 et fait effet
+        pendant 24h.
+      </p>
+      <h3
+        class="text-2xl font-semibold text-gray-300 mt-6 mb-4"
+        id="super-coupe-gorge"
+      >
+        Super Coupe-gorge
+      </h3>
+      <p class="mb-2">
+        Le super coupe-gorge vous permet de tuer votre cible sans que celle-ci
+        puisse être sauvée par d’autres joueurs ou l’immunité. La seule chose
+        qui peut sauver votre victime est son intelligence et sa capacité à
+        courir vite. <strong>Attention</strong>: Ce bonus ne permet pas de
+        passer outre les trêves applicables à votre cible.
+      </p>
+      <p class="mb-2">
+        Ce bonus est activé le lendemain de l’achat à 00:10 et fait effet
+        pendant 24h.
+      </p>
 
-        <h2 class="text-3xl font-bold text-gray-200 border-b-2 border-gray-700 mt-10 pb-2 mb-5" id="treves">Trêves</h2>
-        <p class="mb-2">Les joueurs concernés par les trêves (dit <em>en trêve</em>) sont temporairement hors-jeu,
-            c’est-à-dire qu’ils ne peuvent ni tuer, ni sauver, ni réanimer un joueur.</p>
-        <p class="mb-2">La trève ne doit pas être confondue avec le bonus d'immunité</p>
-        <h3 class="text-2xl font-semibold text-gray-300 mt-6 mb-4" id="examens">Examens</h3>
-        <p class="mb-2">Pour que cette trêve prenne effet, les examens doivent être déclarés
-            et validés par l’administrateur et signalés dans l’application.
-            Autrement ce sont les règles des cours normaux qui sont appliquées.</p>
-        <p class="mb-2">La trêve d’examen permet aux joueurs présents à l’examen d’être
-            <em>en trêve</em> <strong>5 minutes</strong> avant l’heure de début
-            prévue de l’examen et <strong>5 minutes</strong> après l’heure de fin de
-            l’examen (tiers temps inclus), et ce <strong>uniquement</strong> dans la
-            ou les salles de l’examen. Si un joueur sort de la salle d’examen avant
-            la fin de la trêve, il n’est plus concerné par celle-ci.
-        </p>
-        <p class="mb-2"><strong>Attention</strong>: Les simples contrôles en cours et en TD
-            ne peuvent pas être concernés par la trêve examen.</p>
-        <h3 class="text-2xl font-semibold text-gray-300 mt-6 mb-4" id="événement">Événement</h3>
-        <p class="mb-2">Toute association faisant un événement public sur le campus peut
-            demander une trêve pour celui-ci à l’administrateur. L’administrateur se
-            réserve le droit de refuser si la demande n’est pas justifiée.</p>
-        <p class="mb-2">La demande peut concerner uniquement les organisateurs ou concerner
-            tous les participants, cela dépendra de la nature de l’évènement et la
-            demande formulée par l’organisateur.</p>
-        <h3 class="text-2xl font-semibold text-gray-300 mt-6 mb-4" id="association-sportive-as">Association Sportive
-            (AS)</h3>
-        <h4 class="text-lg font-semibold mt-4 mb-2" id="entrainement"><span
-                class="text-gray-500 mr-2">•</span>Entrainement</h4>
-        <p class="mb-2">Chaque responsable de sport de l’AS peut demander <strong>une
-                seule</strong> trêve d’entrainement sur toute la durée de la partie (une
-            trêve par sport). Cette trêve concerne toutes les personnes présente à
-            l’AS durant l’entrainement et le temps de rangement pour le staff.</p>
-        <p class="mb-2">La demande doit être faite à l’administrateur par le responsable du
-            sport au moins une heure avant le début de l’entrainement.</p>
-        <h4 class="text-lg font-semibold mt-4 mb-2" id="compétitions"><span
-                class="text-gray-500 mr-2">•</span>Compétitions</h4>
-        <p class="mb-2">Les participants et organisateurs prenant par à une compétition ou
-            match de l’AS sont automatiquement <em>en trêve</em> (il n’est pas
-            obligatoire de prévenir l’administrateur mais est préférable que
-            l’administrateur lui-même et tout le monde puissent être avertis). Cette
-            trêve comprend le trajet vers le lieu de match et le match en
-            lui-même.</p>
-        <p class="mb-2"><strong>Attention</strong> : Les supporters ne sont pas concernés par
-            la trêve.</p>
+      <h2
+        class="text-3xl font-bold text-gray-200 border-b-2 border-gray-700 mt-10 pb-2 mb-5"
+        id="treves"
+      >
+        Trêves
+      </h2>
+      <p class="mb-2">
+        Les joueurs concernés par les trêves (dit <em>en trêve</em>) sont
+        temporairement hors-jeu, c’est-à-dire qu’ils ne peuvent ni tuer, ni
+        sauver, ni réanimer un joueur.
+      </p>
+      <p class="mb-2">
+        La trève ne doit pas être confondue avec le bonus d'immunité
+      </p>
+      <h3 class="text-2xl font-semibold text-gray-300 mt-6 mb-4" id="examens">
+        Examens
+      </h3>
+      <p class="mb-2">
+        Pour que cette trêve prenne effet, les examens doivent être déclarés et
+        validés par l’administrateur et signalés dans l’application. Autrement
+        ce sont les règles des cours normaux qui sont appliquées.
+      </p>
+      <p class="mb-2">
+        La trêve d’examen permet aux joueurs présents à l’examen d’être
+        <em>en trêve</em> <strong>5 minutes</strong> avant l’heure de début
+        prévue de l’examen et <strong>5 minutes</strong> après l’heure de fin de
+        l’examen (tiers temps inclus), et ce <strong>uniquement</strong> dans la
+        ou les salles de l’examen. Si un joueur sort de la salle d’examen avant
+        la fin de la trêve, il n’est plus concerné par celle-ci.
+      </p>
+      <p class="mb-2">
+        <strong>Attention</strong>: Les simples contrôles en cours et en TD ne
+        peuvent pas être concernés par la trêve examen.
+      </p>
+      <h3 class="text-2xl font-semibold text-gray-300 mt-6 mb-4" id="événement">
+        Événement
+      </h3>
+      <p class="mb-2">
+        Toute association faisant un événement public sur le campus peut
+        demander une trêve pour celui-ci à l’administrateur. L’administrateur se
+        réserve le droit de refuser si la demande n’est pas justifiée.
+      </p>
+      <p class="mb-2">
+        La demande peut concerner uniquement les organisateurs ou concerner tous
+        les participants, cela dépendra de la nature de l’évènement et la
+        demande formulée par l’organisateur.
+      </p>
+      <h3
+        class="text-2xl font-semibold text-gray-300 mt-6 mb-4"
+        id="association-sportive-as"
+      >
+        Association Sportive (AS)
+      </h3>
+      <h4 class="text-lg font-semibold mt-4 mb-2" id="entrainement">
+        <span class="text-gray-500 mr-2">•</span>Entrainement
+      </h4>
+      <p class="mb-2">
+        Chaque responsable de sport de l’AS peut demander
+        <strong>une seule</strong> trêve d’entrainement sur toute la durée de la
+        partie (une trêve par sport). Cette trêve concerne toutes les personnes
+        présente à l’AS durant l’entrainement et le temps de rangement pour le
+        staff.
+      </p>
+      <p class="mb-2">
+        La demande doit être faite à l’administrateur par le responsable du
+        sport au moins une heure avant le début de l’entrainement.
+      </p>
+      <h4 class="text-lg font-semibold mt-4 mb-2" id="compétitions">
+        <span class="text-gray-500 mr-2">•</span>Compétitions
+      </h4>
+      <p class="mb-2">
+        Les participants et organisateurs prenant par à une compétition ou match
+        de l’AS sont automatiquement <em>en trêve</em> (il n’est pas obligatoire
+        de prévenir l’administrateur mais est préférable que l’administrateur
+        lui-même et tout le monde puissent être avertis). Cette trêve comprend
+        le trajet vers le lieu de match et le match en lui-même.
+      </p>
+      <p class="mb-2">
+        <strong>Attention</strong> : Les supporters ne sont pas concernés par la
+        trêve.
+      </p>
 
-        <h2 class="text-3xl font-bold text-gray-200 border-b-2 border-gray-700 mt-10 pb-2 mb-5"
-            id="contestation-et-tribunal">Contestation et Tribunal</h2>
-        <p class="mb-2">Il est possible qu’un kill soit litigieux, auquel cas certains recours existent.</p>
-        <h3 class="text-2xl font-semibold text-gray-300 mt-6 mb-4" id="contestation">Contestation</h3>
-        <p class="mb-2">Si vous considerez que votre kill n’est pas valide et enfreint une ou
-            plusieurs règles, vous pouvez le contester. Pour cela ne faites pas
-            scanner votre carte par votre killer et contactez l’administrateur afin
-            de résoudre au plus vite la situation.</p>
-        <p class="mb-2">Si la situation peut être résolue pas l’administrateur, le jeu
-            continue, sinon <strong>Tribunal</strong></p>
-        <h3 class="text-2xl font-semibold text-gray-300 mt-6 mb-4" id="tribunal">Tribunal</h3>
-        <p class="mb-2">Le tribunal est un événement permettant à tous les joueurs de
-            participer à la résolution d’une contestation.
-            Le tribunal se déroule publiquement dans un amphi de l’INSA,
-            et une trêve générale est mise en place au cours de celui-ci.</p>
-        <p class="mb-2">L’administrateur fait office de juge final et s’il ne peut pas
-            trancher directement sur la situation, il peut décider d’utiliser
-            n’importe quelle méthode de résolution pour départager les joueurs (Ex:
-            Sonomètre sur tous participant du tribunal, battle de beer-pong,
-            chifumi, 1v1 ARAM … cela dépendra des personnes concernées.).</p>
-        <p class="mb-2"><strong>Attention</strong> : Les deux parties du litige (à savoir le killer et la cible) seront
-            hors-jeu
-            (cf <a href="#treves">trêves</a>) à partir de la déclaration du kill litigieux jusqu’à la tenue du tribunal.
-        </p>
+      <h2
+        class="text-3xl font-bold text-gray-200 border-b-2 border-gray-700 mt-10 pb-2 mb-5"
+        id="contestation-et-tribunal"
+      >
+        Contestation et Tribunal
+      </h2>
+      <p class="mb-2">
+        Il est possible qu’un kill soit litigieux, auquel cas certains recours
+        existent.
+      </p>
+      <h3
+        class="text-2xl font-semibold text-gray-300 mt-6 mb-4"
+        id="contestation"
+      >
+        Contestation
+      </h3>
+      <p class="mb-2">
+        Si vous considerez que votre kill n’est pas valide et enfreint une ou
+        plusieurs règles, vous pouvez le contester. Pour cela ne faites pas
+        scanner votre carte par votre killer et contactez l’administrateur afin
+        de résoudre au plus vite la situation.
+      </p>
+      <p class="mb-2">
+        Si la situation peut être résolue pas l’administrateur, le jeu continue,
+        sinon <strong>Tribunal</strong>
+      </p>
+      <h3 class="text-2xl font-semibold text-gray-300 mt-6 mb-4" id="tribunal">
+        Tribunal
+      </h3>
+      <p class="mb-2">
+        Le tribunal est un événement permettant à tous les joueurs de participer
+        à la résolution d’une contestation. Le tribunal se déroule publiquement
+        dans un amphi de l’INSA, et une trêve générale est mise en place au
+        cours de celui-ci.
+      </p>
+      <p class="mb-2">
+        L’administrateur fait office de juge final et s’il ne peut pas trancher
+        directement sur la situation, il peut décider d’utiliser n’importe
+        quelle méthode de résolution pour départager les joueurs (Ex: Sonomètre
+        sur tous participant du tribunal, battle de beer-pong, chifumi, 1v1 ARAM
+        … cela dépendra des personnes concernées.).
+      </p>
+      <p class="mb-2">
+        <strong>Attention</strong> : Les deux parties du litige (à savoir le
+        killer et la cible) seront hors-jeu (cf <a href="#treves">trêves</a>) à
+        partir de la déclaration du kill litigieux jusqu’à la tenue du tribunal.
+      </p>
 
-        <h2 class="text-3xl font-bold text-gray-200 border-b-2 border-gray-700 mt-10 pb-2 mb-5"
-            id="arbitrage-par-administrateur">Arbitrage par l’administrateur</h2>
-        <p class="mb-2">
-            L’administrateur de la partie (Orion) a pour mission de veiller au bon déroulement de la partie.
-            Il se réserve donc tous les droits sur de nombreuses décisions (règles du jeu, attribution des points bonus,
-            résolutions de litiges…) tout en suivant un objectif d’impartialité.
-        </p>
+      <h2
+        class="text-3xl font-bold text-gray-200 border-b-2 border-gray-700 mt-10 pb-2 mb-5"
+        id="arbitrage-par-administrateur"
+      >
+        Arbitrage par l’administrateur
+      </h2>
+      <p class="mb-2">
+        L’administrateur de la partie (Orion) a pour mission de veiller au bon
+        déroulement de la partie. Il se réserve donc tous les droits sur de
+        nombreuses décisions (règles du jeu, attribution des points bonus,
+        résolutions de litiges…) tout en suivant un objectif d’impartialité.
+      </p>
 
-        <h2 class="text-3xl font-bold text-gray-200 border-b-2 border-gray-700 mt-10 pb-2 mb-5"
-            id="mot-de-la-fin">Mot de la fin</h2>
-        <p class="mb-2">
-            Ce règlement est issu du retour d’expérience des killers précédents et est évidemment toujours sujet à des
-            améliorations.
-            Il a pour objectif d’assurer un jeu juste et équitable pour tous, en essayant de limiter au mieux les
-            perturbations
-            sur les cours ou évènements associatifs. S’il présente aujourd’hui un
-            certain niveau d’exhaustivité, il est évident qu’il ne couvre pas toutes
-            les situations susceptibles de se produire, et que certains cas de figure
-            pourraient ne pas figurer dans les règles. Nous comptons donc principalement
-            sur le bon sens et le fair play de tous les joueurs afin que la partie puisse
-            se dérouler au mieux. Le killer est un (super) jeu et doit le rester.
-        </p>
-        
-        <h2 class="text-3xl font-bold text-gray-200 border-b-2 border-gray-700 mt-10 pb-2 mb-5"
-            id="contact-administrateur">Contact administrateur</h2>
-        <p class="mb-2">
-            L'administrateur pour cette année 2025 est Simon Leclere. Pour le contacter:
-            <ul>
-                <li>Mail killer (<a href="mailto:killer@insa-cvl.fr">killer@insa-cvl.fr</a>)</li>
-            </ul>
-        </p>
+      <h2
+        class="text-3xl font-bold text-gray-200 border-b-2 border-gray-700 mt-10 pb-2 mb-5"
+        id="mot-de-la-fin"
+      >
+        Mot de la fin
+      </h2>
 
-        <p class="mt-10 pb-2 mb-5">Bon jeu à toutes et à tous, et que le killer commence !</p>
+      <p class="mb-2">
+        Ce règlement est issu du retour d’expérience des killers précédents et
+        est évidemment toujours sujet à des améliorations. Il a pour objectif
+        d’assurer un jeu juste et équitable pour tous, en essayant de limiter au
+        mieux les perturbations sur les cours ou évènements associatifs. S’il
+        présente aujourd’hui un certain niveau d’exhaustivité, il est évident
+        qu’il ne couvre pas toutes les situations susceptibles de se produire,
+        et que certains cas de figure pourraient ne pas figurer dans les règles.
+        Nous comptons donc principalement sur le bon sens et le fair play de
+        tous les joueurs afin que la partie puisse se dérouler au mieux. Le
+        killer est un (super) jeu et doit le rester.
+      </p>
+
+      <h2
+        class="text-3xl font-bold text-gray-200 border-b-2 border-gray-700 mt-10 pb-2 mb-5"
+        id="contact-administrateur"
+      >
+        Contact administrateur
+      </h2>
+      <p class="mb-2">
+        L'administrateur pour cette année 2025 est Simon Leclere. Pour le
+        contacter:
+      </p>
+      <ul>
+        <li>
+          Mail killer (<a href="mailto:killer@insa-cvl.fr">killer@insa-cvl.fr</a
+          >)
+        </li>
+      </ul>
+
+      <p class="mt-10 pb-2 mb-5">
+        Bon jeu à toutes et à tous, et que le killer commence !
+      </p>
     </div>
     <!-- KILLER{Un_P0in1_B0Nu5_Au_p7E4ieR_qu1_Me_Tr0Uv5} -->
-</body>
-
+  </body>
 </html>
