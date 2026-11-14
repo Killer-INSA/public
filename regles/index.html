@@ -198,15 +198,23 @@
         <span class="text-gray-500 mr-2">•</span>First-blood
       </h4>
       <p class="mb-2">
-        Le joueur qui réalise le <strong>premier kill</strong> gagne 5 points
-        supplémentaires.
+        Le joueur qui réalise le <strong>premier kill</strong> gagne des points
+        supplémentaires, dont le nombre est fixé à la discrétion des
+        Administrateurs (10 points par défaut).
       </p>
       <h3 class="text-2xl font-semibold text-gray-300 mt-6 mb-4" id="armes">
         Armes
       </h3>
       <p class="mb-2">
         Chaque joueur possède une arme facile valant 1 point et une arme
-        difficile valant 3 points.
+        difficile valant 3 points (ces valeurs peuvent être temporairement
+        multipliées, voir <a href="#multiplicateur">Multiplicateur de points</a>).
+      </p>
+      <p class="mb-2">
+        L’application compte séparément vos <strong>kills</strong> et vos
+        <strong>points</strong> : les points servent de monnaie pour acheter des
+        bonus et diminuent quand vous en achetez, alors que votre nombre de kills
+        ne diminue jamais.
       </p>
       <h4
         class="text-lg font-semibold mt-4 mb-2"
@@ -311,7 +319,31 @@
       <h4 class="text-lg font-semibold mt-4 mb-2" id="cupidon">
         <span class="text-gray-500 mr-2">•</span>Cupidon
       </h4>
-      <p class="mb-2">À un certain stade du jeu, Poséidon peut décider arbitrairement de lier deux joueurs par le pouvoir de l'amour jusqu'au prochain reroll de la partie. Les deux amoureux connaissent leur identité mutuelle à travers l'application. S'il l'un des deux meurt, alors l'autre mourra automatiquement de chagrin.</p>
+      <p class="mb-2">À un certain stade du jeu, Poséidon peut décider arbitrairement de lier deux joueurs par le pouvoir de l'amour, pour une durée qu'il fixe à sa discrétion (par exemple jusqu'à la prochaine redistribution des contrats). Les deux amoureux connaissent leur identité mutuelle à travers l'application. Si l'un des deux meurt, quelle qu'en soit la raison, alors l'autre mourra automatiquement de chagrin.</p>
+      <p class="mb-2">
+        Le killer de l’amoureux mort de chagrin récupère son contrat, comme pour
+        un kill normal, mais personne ne gagne de points ni de kill pour cette
+        mort. <strong>Attention</strong> : si votre âme sœur est aussi votre
+        cible, la tuer vous fera mourir de chagrin à votre tour.
+      </p>
+<h4 class="text-lg font-semibold mt-4 mb-2" id="multiplicateur">
+        <span class="text-gray-500 mr-2">•</span>Multiplicateur de points
+      </h4>
+      <p class="mb-2">
+        Pendant certains événements annoncés dans l’application, Poséidon peut
+        multiplier les points rapportés par chaque kill (par exemple, une arme
+        facile rapporte 2 points au lieu de 1 avec un multiplicateur x2). Seuls
+        les points sont multipliés, un kill compte toujours pour un kill.
+      </p>
+<h4 class="text-lg font-semibold mt-4 mb-2" id="redistribution-des-contrats">
+        <span class="text-gray-500 mr-2">•</span>Redistribution des contrats (reroll)
+      </h4>
+      <p class="mb-2">
+        Poséidon peut redistribuer les contrats de tous les joueurs en vie à tout
+        moment de la partie. Chaque joueur reçoit alors une nouvelle cible et de
+        nouvelles armes, et est notifié dans l’application. Les points et les
+        kills déjà gagnés sont conservés.
+      </p>
 
       <h2
         class="text-3xl font-bold text-gray-200 border-b-2 border-gray-700 mt-10 pb-2 mb-5"
@@ -322,9 +354,16 @@
       <p class="mb-2">
         Les bonus sont des éléments achetables par chaque joueur
         <strong>en vie</strong> avec les points collectés grâce à ses kills.
-        Chaque bonus sera notifié dans le fil de notification au moment de
-        l’activation (sauf le brouilleur), sans que l’identité de l’acheteur ne
-        soit dévoilée.
+        L’achat de l’immunité, du coupe-gorge et du super coupe-gorge est
+        annoncé dans le fil de notification dès l’achat, avec sa période
+        d’activité, sans que l’identité de l’acheteur ne soit dévoilée. Le
+        brouilleur est annoncé à sa fin, et la révélation n’est pas annoncée.
+      </p>
+      <p class="mb-2">
+        Les prix, durées et options des bonus sont réglés par Poséidon et
+        peuvent évoluer en cours de partie : l’application affiche toujours les
+        valeurs en vigueur dans la boutique. Les valeurs ci-dessous sont celles
+        par défaut.
       </p>
       <h3
         class="text-2xl font-semibold text-gray-300 mt-6 mb-4"
@@ -334,9 +373,11 @@
       </h3>
       <p class="mb-2">
         Le brouilleur permet à un joueur de désactiver les notifications et
-        messages (kills et bonus) pour tous les joueurs pendant 2 heures. Le
-        brouilleur est cumulable : si un autre brouilleur est activé pendant
-        qu'un autre est déjà en cours, le minuteur est remis à zéro, et toutes
+        messages (kills et bonus) pour tous les joueurs pendant 2 heures. Les
+        annonces d’événements (trêves, tribunal…) ne sont pas bloquées, et un
+        joueur tué reçoit quand même la notification de sa propre mort. Si un
+        autre brouilleur est activé pendant qu'un autre est déjà en cours, le
+        minuteur est remis à zéro, et toutes
         les notifications (y compris celle signalant l’achat du brouilleur)
         seront libérées à la fin du dernier brouilleur.
       </p>
@@ -353,10 +394,13 @@
         Révélation
       </h3>
       <p class="mb-2">
-        La révélation permet de connaître votre killer actuel.
-        <strong>Attention</strong> : Une fois la fenêtre montrant votre killer fermée
-        dans l’application, il ne sera plus possible de le revoir à moins de
-        repayer le bonus.
+        La révélation permet de connaître votre killer actuel. Son nom reste
+        visible dans l’application pendant <strong>10 minutes</strong> après
+        l’achat.
+        <strong>Attention</strong> : la révélation est annulée dès que votre
+        killer change (mort de votre killer, redistribution des contrats…). Il
+        n’est pas possible d’acheter une nouvelle révélation tant que la
+        précédente est active.
       </p>
       <p class="mb-2">Ce bonus est actif immédiatement après l’achat.</p>
       <h3 class="text-2xl font-semibold text-gray-300 mt-6 mb-4" id="immunité">
@@ -368,8 +412,9 @@
         pas être tué, à moins que votre killer n'achète un super Coupe-Gorge.
       </p>
       <p class="mb-2">
-        Ce bonus est activé le lendemain de l’achat à 00:10 et est valable
-        pendant 24h.
+        Ce bonus est activé le lendemain de l’achat à minuit et est valable
+        pendant 24h. L’immunité est cumulable : chaque immunité supplémentaire
+        ajoute 24h à la suite de la précédente.
       </p>
       <h3
         class="text-2xl font-semibold text-gray-300 mt-6 mb-4"
@@ -384,8 +429,10 @@
         permet pas de passer outre les trêves applicables à votre cible.
       </p>
       <p class="mb-2">
-        Ce bonus est activé le lendemain de l’achat à 00:10 et est valable
-        pendant 24h.
+        Ce bonus est activé le lendemain de l’achat à minuit et est valable
+        pendant 24h, <strong>ou jusqu’à votre premier kill</strong> : il ne
+        s’applique qu’à une seule victime. Il n’est pas cumulable, et ne peut
+        pas être acheté pendant un super coupe-gorge.
       </p>
       <h3
         class="text-2xl font-semibold text-gray-300 mt-6 mb-4"
@@ -401,8 +448,9 @@
         passer outre les trêves applicables à votre cible.
       </p>
       <p class="mb-2">
-        Ce bonus est activé le lendemain de l’achat à 00:10 et est valable
-        pendant 24h.
+        Ce bonus est activé le lendemain de l’achat à minuit et est valable
+        pendant 24h, <strong>ou jusqu’à votre premier kill</strong> : il ne
+        s’applique qu’à une seule victime. Il n’est pas cumulable.
       </p>
 
       <h2
